@@ -1,0 +1,9 @@
+package com.akshaya.design.patterns.strategy.fly;
+
+public class NoFlyBehaviour implements IFlyBehaviour {
+
+    @Override
+    public String fly() {
+        return null;
+    }
+}
